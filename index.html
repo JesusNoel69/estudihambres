@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="principal-content">
+        <header class="head">
+            <ico class="menu-icon"></ico><!--representa el icono del menu antes de desplegarse-->
+            <div><navbar class="menu"><!--seccion oculta al inicio (solo en disp. moviles)-->
+                <image class="perfil-image style-button"></image>
+                <button class="show-perfil style-button"></button>
+                <button class="orders style-button"></button>
+                <button class="cupons style-button"></button>
+                <button class="help style-button"></button>
+                <button class="about style-button"></button>
+                </navbar></div>
+            <div><navbar class="search-bar">
+                <input type="text" class="search">
+                <i class="icon-search"></i>
+            </navbar></div>
+        </header>
+        <!--la informacion de las card y de las listas se deben mandar desde el back, segun su disponibilidad-->
+        <div class="ofertas">
+            <h2>Ofertas</h2>
+            <div class="card" id="card-1">
+                <image class="image"></image>
+                <p class="name"></p>
+                <p class="price"></p>
+                <p class="description"></p>
+            </div>
+            <div class="card">
+                <image class="image"></image>
+                <p class="name"></p>
+                <p class="price"></p>
+                <p class="description"></p>
+            </div>
+            <div class="card">
+                <image class="image"></image>
+                <p class="name"></p>
+                <p class="price"></p>
+                <p class="description"></p>
+            </div>
+        </div>
+        <div class="saucers">
+            <h2>Platillos</h2>
+            <ul class="list">
+                <li>Tosticecivches.</li>
+                <li>Tortas.</li>
+                <li>Tacos.</li>
+                <li>Burritos.</li>
+                <li>Hot dog.</li>
+                <li>Pizza</li>
+                <li>Sandwich</li>
+                <li>Boneless</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

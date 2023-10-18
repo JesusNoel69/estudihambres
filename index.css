@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height:100%;
+    width: 100%;
+}
+.principal-content{
+    height: 100vh;
+    background-color: #dbf0ff;
+}
+.menu{
+    display:hide;
+}
+.list{
+    padding: 15px;
+    width:150px;
+    background-color: #4a84ba;
+    border: solid 2px #4a84ba;
+    border-radius: 7px;
+    list-style-type: disc;
+}
+/*centrar card en relacion a si contnedor y mostrarlas en inlineblock con separacion entre cada card*/
+.card{
+    display: inline-block;
+    height:80px;
+    width:55px;
+    border-radius:7px;
+}
+#card-1{
+    background-color: #feb8b8;
+}
